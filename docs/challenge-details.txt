@@ -1,0 +1,49 @@
+
+volumes=[  4,  -2,  ,- 1 , 5, -0.5,  -0.5, -4.5  ]
+
+positve amounts in array of volumnes are  increses to the inventory because of purchases of the asset . Negative amounts in the volumes array are  decreases to the invetory because of SALES
+
+prices= [ 5000,  6500, 7000, 6000, 8000, 9000, 6500 ]
+
+amount=[  4,  -2,  ,- 1 , 5, -0.5,  -0.5, -4.5  ]
+initial inventory I=0
+
+unit_prices= [ 5000,  6500, 7000, 6000, 8000, 9000, 6500 ]
+
+What is the profit or loss at the end and the cost of goods sold.
+What is your initial Income?
+
+we want to know:
+
+1) income
+2) COGS - cost of goods sold
+3) P&L  profit or loss
+4)  value of final inventory
+5) units sold
+6) units purchased
+ruby program
+
+FIFO  FIRST FIRST OUT 
+FIRST COINS YOU PURCHASED ARE THE FIRST YOU SELL
+------------------------------------
+
+TOTAL AMOUNT WE sold over the period of time
+total income = sum units sold *  unit 
+
+profit = total income -cogs
+
+we also want to know the value of our final inventory F 
+
+https://www.youtube.com/watch?v=Wa83L8TvoaM
+
+different functions
+
+Activaciones ISBIT2:34 AM
+LIFO function
+Last items that you purchase are the last to sell
+
+bonus:  extrapoints : send us LIFO tomorrow -------- LIFO   ASSUMPTION  LAST ENTRIES TO INVENTORY ARE THE FIRS YOU SELL
+LIFO: https://www.youtube.com/watch?v=zLAvpS6o25E 
+S@ISBIT.CO
+
+Remember, sell the first items that you purchase (at the different prices you start selling them) and then sell the other ones you bought
